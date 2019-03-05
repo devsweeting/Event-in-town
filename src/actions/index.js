@@ -19,6 +19,8 @@ export function fetchMetroId(city) {
       response => response.json(),
       error => console.log('WHOOOOOPS', error)
     ).then(function(json) {
+      const cityId = json.resultsPage.results.location[0].metroArea.id;
+      console.log(cityId);
       console.log('SUCCESS', json)
     });
   };
