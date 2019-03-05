@@ -1,0 +1,340 @@
+resultsPage.results.event.map( event => {
+  performance.artist;
+  performance.uri;
+  start.datatime;
+  venue.displayName;
+  venue.lat;
+  venue.lng;
+  })
+
+{
+    "resultsPage": {
+        "status": "ok",
+        "results": {
+            "event": [
+                {
+                    "type": "Concert",
+                    "displayName": "Baby at The Secret Society Ballroom (March 3, 2016)",
+                    "ageRestriction": null,
+                    "status": "ok",
+                    "start": {
+                        "datetime": "2016-03-03T18:00:00-0800",
+                        "time": "18:00:00",
+                        "date": "2016-03-03"
+                    },
+                    "location": {
+                        "city": "Portland, OR, US",
+                        "lat": 45.5409227,
+                        "lng": -122.6637325
+                    },
+                    "performance": [
+                        {
+                            "artist": {
+                                "displayName": "Baby",
+                                "uri": "http://www.songkick.com/artists/3566591-baby?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:b1b1de67-d764-4a03-adc5-070ff89376b8.json",
+                                        "mbid": "b1b1de67-d764-4a03-adc5-070ff89376b8"
+                                    },
+                                    {
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:371b80b4-7b6e-43d2-b8ef-4e4ed54ad565.json",
+                                        "mbid": "371b80b4-7b6e-43d2-b8ef-4e4ed54ad565"
+                                    },
+                                    {
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:e00aa6a5-6f1e-4225-b2d5-a3b0b7f94bcc.json",
+                                        "mbid": "e00aa6a5-6f1e-4225-b2d5-a3b0b7f94bcc"
+                                    }
+                                ],
+                                "id": 3566591
+                            },
+                            "displayName": "Baby",
+                            "billing": "headline",
+                            "id": 51122764,
+                            "billingIndex": 1
+                        }
+                    ],
+                    "venue": {
+                        "displayName": "The Secret Society Ballroom",
+                        "lat": 45.5409227,
+                        "lng": -122.6637325,
+                        "uri": "http://www.songkick.com/venues/1086041-secret-society-ballroom?utm_source=55122&utm_medium=partner",
+                        "id": 1086041,
+                        "metroArea": {
+                            "displayName": "Portland",
+                            "uri": "http://www.songkick.com/metro_areas/12283-us-portland?utm_source=55122&utm_medium=partner",
+                            "country": {
+                                "displayName": "US"
+                            },
+                            "id": 12283,
+                            "state": {
+                                "displayName": "OR"
+                            }
+                        }
+                    },
+                    "uri": "http://www.songkick.com/concerts/26153149-baby-at-secret-society-ballroom?utm_source=55122&utm_medium=partner",
+                    "id": 26153149,
+                    "popularity": 0.00485
+                },
+                {
+                    "id": 35240989,
+                    "displayName": "Julia Holter with Tess Roby at Doug Fir Lounge (March 5, 2019)",
+                    "type": "Concert",
+                    "uri": "http://www.songkick.com/concerts/35240989-julia-holter-at-doug-fir-lounge?utm_source=55122&utm_medium=partner",
+                    "status": "ok",
+                    "popularity": 0.016587,
+                    "start": {
+                        "date": "2019-03-05",
+                        "datetime": "2019-03-05T21:00:00-0800",
+                        "time": "21:00:00"
+                    },
+                    "performance": [
+                        {
+                            "id": 67473859,
+                            "displayName": "Julia Holter",
+                            "billing": "headline",
+                            "billingIndex": 1,
+                            "artist": {
+                                "id": 638513,
+                                "displayName": "Julia Holter",
+                                "uri": "http://www.songkick.com/artists/638513-julia-holter?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "mbid": "45610c1f-41a4-44f1-9da6-227510073ffc",
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:45610c1f-41a4-44f1-9da6-227510073ffc.json"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 69166579,
+                            "displayName": "Tess Roby",
+                            "billing": "support",
+                            "billingIndex": 2,
+                            "artist": {
+                                "id": 8609834,
+                                "displayName": "Tess Roby",
+                                "uri": "http://www.songkick.com/artists/8609834-tess-roby?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "mbid": "c2b439cf-5c2a-4677-972d-c71db6fb254a",
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:c2b439cf-5c2a-4677-972d-c71db6fb254a.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "ageRestriction": null,
+                    "flaggedAsEnded": false,
+                    "venue": {
+                        "id": 11585,
+                        "displayName": "Doug Fir Lounge",
+                        "uri": "http://www.songkick.com/venues/11585-doug-fir-lounge?utm_source=55122&utm_medium=partner",
+                        "metroArea": {
+                            "displayName": "Portland",
+                            "country": {
+                                "displayName": "US"
+                            },
+                            "state": {
+                                "displayName": "OR"
+                            },
+                            "id": 12283,
+                            "uri": "http://www.songkick.com/metro_areas/12283-us-portland?utm_source=55122&utm_medium=partner"
+                        },
+                        "lat": 45.52292,
+                        "lng": -122.65871
+                    },
+                    "location": {
+                        "city": "Portland, OR, US",
+                        "lat": 45.52292,
+                        "lng": -122.65871
+                    }
+                },
+                {
+                    "id": 35960324,
+                    "displayName": "Cherry Glazerr at Wonder Ballroom (March 5, 2019)",
+                    "type": "Concert",
+                    "uri": "http://www.songkick.com/concerts/35960324-cherry-glazerr-at-wonder-ballroom?utm_source=55122&utm_medium=partner",
+                    "status": "ok",
+                    "popularity": 0.012242,
+                    "start": {
+                        "date": "2019-03-05",
+                        "datetime": "2019-03-05T20:00:00-0800",
+                        "time": "20:00:00"
+                    },
+                    "performance": [
+                        {
+                            "id": 68672804,
+                            "displayName": "Cherry Glazerr",
+                            "billing": "headline",
+                            "billingIndex": 1,
+                            "artist": {
+                                "id": 6257959,
+                                "displayName": "Cherry Glazerr",
+                                "uri": "http://www.songkick.com/artists/6257959-cherry-glazerr?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "mbid": "64a0c404-58af-4083-8fc6-a6725ef02ecb",
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:64a0c404-58af-4083-8fc6-a6725ef02ecb.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "ageRestriction": null,
+                    "flaggedAsEnded": false,
+                    "venue": {
+                        "id": 1433,
+                        "displayName": "Wonder Ballroom",
+                        "uri": "http://www.songkick.com/venues/1433-wonder-ballroom?utm_source=55122&utm_medium=partner",
+                        "metroArea": {
+                            "displayName": "Portland",
+                            "country": {
+                                "displayName": "US"
+                            },
+                            "state": {
+                                "displayName": "OR"
+                            },
+                            "id": 12283,
+                            "uri": "http://www.songkick.com/metro_areas/12283-us-portland?utm_source=55122&utm_medium=partner"
+                        },
+                        "lat": 45.54085,
+                        "lng": -122.66349
+                    },
+                    "location": {
+                        "city": "Portland, OR, US",
+                        "lat": 45.54085,
+                        "lng": -122.66349
+                    }
+                },
+                {
+                    "id": 36152729,
+                    "displayName": "Max Frost with Mikey Mike at Hawthorne Theatre (March 5, 2019)",
+                    "type": "Concert",
+                    "uri": "http://www.songkick.com/concerts/36152729-max-frost-at-hawthorne-theatre?utm_source=55122&utm_medium=partner",
+                    "status": "ok",
+                    "popularity": 0.018314,
+                    "start": {
+                        "date": "2019-03-05",
+                        "datetime": null,
+                        "time": null
+                    },
+                    "performance": [
+                        {
+                            "id": 68990279,
+                            "displayName": "Max Frost",
+                            "billing": "headline",
+                            "billingIndex": 1,
+                            "artist": {
+                                "id": 5212623,
+                                "displayName": "Max Frost",
+                                "uri": "http://www.songkick.com/artists/5212623-max-frost?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "mbid": "743ff4c0-64fa-4974-aae3-ab33e586e941",
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:743ff4c0-64fa-4974-aae3-ab33e586e941.json"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 69100144,
+                            "displayName": "Mikey Mike",
+                            "billing": "support",
+                            "billingIndex": 2,
+                            "artist": {
+                                "id": 9197119,
+                                "displayName": "Mikey Mike",
+                                "uri": "http://www.songkick.com/artists/9197119-mikey-mike?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "mbid": "cce27e95-ed66-4b80-b855-dba13d0b1bab",
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:cce27e95-ed66-4b80-b855-dba13d0b1bab.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "ageRestriction": null,
+                    "flaggedAsEnded": false,
+                    "venue": {
+                        "id": 11593,
+                        "displayName": "Hawthorne Theatre",
+                        "uri": "http://www.songkick.com/venues/11593-hawthorne-theatre?utm_source=55122&utm_medium=partner",
+                        "metroArea": {
+                            "displayName": "Portland",
+                            "country": {
+                                "displayName": "US"
+                            },
+                            "state": {
+                                "displayName": "OR"
+                            },
+                            "id": 12283,
+                            "uri": "http://www.songkick.com/metro_areas/12283-us-portland?utm_source=55122&utm_medium=partner"
+                        },
+                        "lat": 45.51187,
+                        "lng": -122.62298
+                    },
+                    "location": {
+                        "city": "Portland, OR, US",
+                        "lat": 45.51187,
+                        "lng": -122.62298
+                    }
+                },
+                {
+                    "id": 36178914,
+                    "displayName": "Ladysmith Black Mambazo at Aladdin Theater (March 5, 2019)",
+                    "type": "Concert",
+                    "uri": "http://www.songkick.com/concerts/36178914-ladysmith-black-mambazo-at-aladdin-theater?utm_source=55122&utm_medium=partner",
+                    "status": "ok",
+                    "popularity": 0.011809,
+                    "start": {
+                        "date": "2019-03-05",
+                        "datetime": "2019-03-05T19:30:00-0800",
+                        "time": "19:30:00"
+                    },
+                    "performance": [
+                        {
+                            "id": 69031909,
+                            "displayName": "Ladysmith Black Mambazo",
+                            "billing": "headline",
+                            "billingIndex": 1,
+                            "artist": {
+                                "id": 458924,
+                                "displayName": "Ladysmith Black Mambazo",
+                                "uri": "http://www.songkick.com/artists/458924-ladysmith-black-mambazo?utm_source=55122&utm_medium=partner",
+                                "identifier": [
+                                    {
+                                        "mbid": "c1982570-8efb-4cf7-bb5b-c9c026c0e8f4",
+                                        "href": "http://api.songkick.com/api/3.0/artists/mbid:c1982570-8efb-4cf7-bb5b-c9c026c0e8f4.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "ageRestriction": null,
+                    "flaggedAsEnded": false,
+                    "venue": {
+                        "id": 1207,
+                        "displayName": "Aladdin Theater",
+                        "uri": "http://www.songkick.com/venues/1207-aladdin-theater?utm_source=55122&utm_medium=partner",
+                        "metroArea": {
+                            "displayName": "Portland",
+                            "country": {
+                                "displayName": "US"
+                            },
+                            "state": {
+                                "displayName": "OR"
+                            },
+                            "id": 12283,
+                            "uri": "http://www.songkick.com/metro_areas/12283-us-portland?utm_source=55122&utm_medium=partner"
+                        },
+                        "lat": 45.5011,
+                        "lng": -122.65425
+                    },
+                    "location": {
+                        "city": "Portland, OR, US",
+                        "lat": 45.5011,
+                        "lng": -122.65425
+                    }
+                },
