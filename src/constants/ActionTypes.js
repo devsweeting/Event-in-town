@@ -1,1 +1,3 @@
 export const SEARCH_LOCATION = 'SEARCH_LOCATION';
+export const RECEIVE_EVENT = 'RECEIVE_EVENT';
+export const SAVE_EVENT = 'SAVE_EVENT';
